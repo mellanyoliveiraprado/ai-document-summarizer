@@ -21,3 +21,10 @@ Processar grandes volumes de texto ou relatórios manualmente consome tempo. Est
    ```bash
    git clone [https://github.com/SEU-USUARIO/ai-document-summarizer.git](https://github.com/SEU-USUARIO/ai-document-summarizer.git)
    cd ai-document-summarizer
+Bash
+python -m venv .venv
+# No Linux/Mac:
+source .venv/bin/activate
+# No Windows:
+.venv\Scripts\activate 
+pip install -r requirements.txt
